@@ -1,0 +1,10 @@
+08:41:08.513 [ApplicationImpl pooled thread 1109] INFO  c.b.l.BrowserStackRunExtension - maven
+08:41:08.513 [ApplicationImpl pooled thread 1109] INFO  com.browserstack.utils.Helpers - null
+08:48:30.775 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+08:48:30.780 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+07:59:19.327 [ApplicationImpl pooled thread 66] INFO  c.b.l.BrowserStackRunExtension - application
+07:59:19.329 [ApplicationImpl pooled thread 66] INFO  com.browserstack.utils.Helpers - null
+18:35:31.609 [ApplicationImpl pooled thread 484] INFO  c.b.l.BrowserStackRunExtension - application
+18:35:31.609 [ApplicationImpl pooled thread 484] INFO  com.browserstack.utils.Helpers - null
+18:35:33.025 [ApplicationImpl pooled thread 508] INFO  c.b.l.BrowserStackRunExtension - application
+18:35:33.025 [ApplicationImpl pooled thread 508] INFO  com.browserstack.utils.Helpers - null
