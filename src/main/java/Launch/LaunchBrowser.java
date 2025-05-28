@@ -37,9 +37,8 @@ public class LaunchBrowser {
         String ActualText = driver.findElement(By.tagName("p")).getText();
         System.out.println(ActualText);
         Assert.assertEquals(ActualText,"You are successfully logged in.");*/
-//driver.findElement(By.xpath("//button[text()='Log Out']")).click();
-
-       // driver.findElement(By.xpath())
+        //driver.findElement(By.xpath("//button[text()='Log Out']")).click();
+        // driver.findElement(By.xpath())
 
         WebElement checkbox = driver.findElement(By.id("checkBoxOption1"));
         checkbox.click();
