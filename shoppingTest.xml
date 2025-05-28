@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="TestComponents.Listners">
+
+        </listener>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="Test2">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+
+            <class name="TestCases.SubmitTest"/>
+
+        </classes>
+    </test>
+</suite>
