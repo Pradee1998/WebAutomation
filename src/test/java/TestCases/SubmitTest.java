@@ -52,6 +52,7 @@ public class SubmitTest extends baseTest {
         OrderPage oPage = new OrderPage(driver);
         Boolean isOrderMatch = oPage.verifyOrderDisplay(productName);
         Assert.assertTrue(isOrderMatch);
+        System.out.println("hii");
     }
 
 
